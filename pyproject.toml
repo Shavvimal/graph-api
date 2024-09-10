@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "api"
+version = "0.1"
+description = "GraphRAG API"
+authors = ["shavvimal <shavhugan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+pytest = "^7.3.2"
+graphrag = "^0.3.2"
+python-dotenv = "^1.0.1"
+pandas = "^2.2.2"
+pydantic = "^2.8.2"
+fastapi = "^0.112.4"
+uvicorn = "^0.30.6"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+# A list of dependencies required to build your package, making this key mandatory
+requires = ["poetry-core"]
+# The Python object used to perform the build process
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,37 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+*.swp
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore Docker-specific files
+Dockerfile
+docker-compose.yml
+
+# Ignore tests and docs if not needed in the image
+tests/
+docs/
+
+# Ignore git files
+.git
+.gitignore
+
+# Ignore other files and directories that are not needed
+node_modules/
+*.bak
